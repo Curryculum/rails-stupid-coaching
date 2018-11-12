@@ -1,0 +1,15 @@
+<div class="question">
+  <h2>Your question:</h2>
+<%= params[:question] %>
+</div>
+<div class="reponse">
+<h2>Reponse:</h2>
+<%= @answer %>
+</div>
+
+<br>
+<br>
+<br>
+<div class="link">
+  <%= link_to "Poser une autre question?", "/ask" %>
+</div>
